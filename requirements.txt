@@ -1,0 +1,9 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+spotipy==2.19.0
+beautifulsoup4==4.12.2
+requests==2.31.0
+python-dotenv==1.0.0
